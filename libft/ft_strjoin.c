@@ -32,7 +32,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		new_str[i] = s1[i];
 		i++;
 	}
-	i = ft_strlen(new_str);
 	ft_strlcat(new_str, s2, size + 1);
 	return (new_str);
 }
